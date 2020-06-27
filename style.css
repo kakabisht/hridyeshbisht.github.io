@@ -1,30 +1,239 @@
-body
+body {
+    font-family: Oswald, sans-serif;
+    
+}
+
+html { 
+  background: url("https://arni.ba/wp-content/uploads/2018/07/background4-1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.p1 main {
+  min-height: 90vh;
+}
+
+.p1 header {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.nav-link {
+  color: #24ffa0;
+  margin-left: 10%;
+}
+
+.p1 ul {
+  list-style: none;
+  display: flex;
+  color: #24ffa0;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+.p1 a {
+  text-decoration: none;
+   color: #24ffa0;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.p1 li {
+  display: flex;
+  color: #24ffa0;
+
+  flex: 1;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.p1 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p1 main p {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 69px !important;
+  padding-top: 150px;
+  font-family: Clip;
+}
+
+.p1 .scroll {
+  position: absolute;
+  bottom: 2%;
+  font-size: 40px;
+}
+
+.p2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+    display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  flex: 1;
+  
+}
+
+.p2 .text {
+  width: 50%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.p2 .text h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.p2 .text p {
+  font-size: 200%;
+}
+
+.image {
+  border-radius: 25px;
+  width: 30%;
+  height: 30%;
+  margin: 5%;
+}
+
+
+
+.p3 header {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.p3 header h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.p3 main {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.p3 ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  flex: 1;
+}
+
+.p3 li {
+  background-color: #ff2483;
+  margin: 5%;
+  color: white;
+  width: 314px;
+  height: 404px;
+  text-align: center;
+  display: inline;
+  padding-right: 20px;
+}
+
+.p3 li .full {
+  background-color: #3f3d56;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+  width: 164px;
+  height: 40px;
+}
+
+.p3 li h4 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.p3 li button {
+  width: 164px;
+  height: 40px;
+  font-size: 18px;
+  font-family: Oswald;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.p3 li img {
+  width: 233px;
+  height: 164px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+footer {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  opacity: 0.7;
+}
+
+.box {
+	display: inline-block;
+	border-width: 20 px;
+}
+#rick
 {
-    font-family: 'Sriracha', cursive;
-    background-color: #14213d;
-    color:#fca311;
-    text-align: center;
-    border: 60px solid #fb5607;
-    border-top: 0px;
-    margin: 0px;
-}
-p{
-    padding-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-form{
-    font-size: 1.5em;
-    margin-bottom: 10px;
-
-}
-#sub{
-    background-color: #ffbe0b;
-    height: 80px;
-    width: 150px;
-    margin: 4px;
-    margin-top: 12px;
-    font-size: 1em;
-    border-radius: 25px;
+  height: 100%;
+  width: 100%;
 }

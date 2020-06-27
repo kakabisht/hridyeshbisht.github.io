@@ -2,33 +2,108 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>First Html and Css Project</title>
+         <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap"rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
+    <link rel="stylesheet" href="style.css" />
+        
+        <title>Hridyesh Singh Bisht</title>
     </head>
     <body>
-        <h1>Welcome to Programming Prodigy</h1>
-        <h2>I am an ungrad student</h2>
-        <img src="https://media-exp1.licdn.com/dms/image/C5622AQFVogysVweZzA/feedshare-shrink_480/0?e=1595462400&v=beta&t=z0MxnnG8sMlkx_7C5HjHhdacWdWl_cFXyoms-lwGa8Y" alt="Could not find the image ">
+      <section class="p1">
+        <header>         
+                   
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <ul class="nav-links">
+            <li class="nav-link"><a href="#about">About me</a></li>
+            <li class="nav-link"><a href="#work">My work</a></li>
+            <li class="nav-link">
+              <a href="https://www.linkedin.com/in/hridyesh-bisht-223406133/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACChSbsBhNmEpTQnSUHRAWfOlLg5JiyAYM0,1590768024083)/">
+                  My resume
+              </a>
+            <li class="nav-link">
+              <a href="#contact">Contact me</a></li>
+            </li>
+          </ul>
+        </header>
+      </section>
+      <section class="p2" id="about">
+        <div class="text">
+          <h1 style="color: #24ffa0;">Hola, Yo Soy Hridyesh Bisht </h1>
+            <p style="color: #ff2483;">
+            Currently an Undergraduate at Symbiosis University.
+             My interest as of now lie in Quantum computer and Natural language processing,
+             I also write tech blogs.          
+        </p>
+        <p>&nbsp</p>
+            <p style="color: #ff2483;">
+            I represent my college in swimming and squash, I also like to play basketball or my ukulele sometimes.        
+        </p>
+        <p>&nbsp</p>
+        <p>&nbsp</p>
+            <p style="color: #23DAFF;">
+            <strong>“Engineering is the closest thing to magic that exists in the world.”</strong> 
+        
+        </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <h2>Sign up for the blog</h2>
-
-        <form class="emailform" action="thankyou.html" method="get">
-
-            <label for="first">First Name</label><br>
-            <input type="text" name="first" value="" placeholder="first name"><br>
-
-            <label for="last">Last Name</label><br>
-            <input type="text" name="last" value="" placeholder="last name"><br>
-
-            <label for="email">Email Id:</label><br>
-            <input type="email" name="email" value="" placeholder="email id"><br>
-
-            <input id="sub" type="submit" name="" value="Yo, Sign me Up!">
-
+        </div>
+        
+        <img src="./images/me_pic.jpeg" alt="my picture" class="image" />
+      </section>
+  
+      <section class="p3" id="work">
+        <header>
+          <h1 style="color: #24ffa0;">My work</h1>
+        </header>
+  
+        <main>
+          <ul>
+            <li>
+              <img src="./images/Ency&Decy.png" alt="Encryption and Decryption " />
+              <h4 >An Encryption & Decryption Application using 6 types of Encryption in Java</h4>
+              <button
+                onclick="location.href='https://github.com/kakabisht/Encrytion-Decryption'"
+                class="full"
+              >
+                View on GitHub
+              </button>
+            </li>
+            <li>
+              <img src="./images/block.jpeg" alt="Blockchain in c++ and Python" />
+              <h4>Blockchain in c++ and Python without networking part</h4>
+              <button
+                onclick="location.href=' https://github.com/kakabisht/Blockchain-implementation-without-networkingpart'"
+                class="full"
+              >
+                View on GitHub
+              </button>
+            </li>
+            <li>
+              <img src="./images/aws_git.png" alt="Basics of Amazon Web Services " />
+              <h4>Basics of Amazon Web Services  </h4>
+              <button
+                onclick="location.href='http://programmerprodigy.code.blog/2020/05/31/aws-fundamentals-awscloud/'"
+                class="full"
+              >
+                View on Blog
+              </button>
+            </li>
+          </ul>
+        </main>
+      </section>
+      <footer id="contact">
+        <h1 style="color: #24ffa0;">Get in Touch!</h1>
+        <div class="icons" style="font-size:5vw">
+          <span class = "box"><a class="lab" href="mailto:kakabisht07@gmail.com"><i class="far fa-envelope" style="color: #ff2483;"></i></a></span>
+          <span class = "box"><a class="lab" href="https://www.linkedin.com/in/hridyesh-bisht-223406133/"><i class="fab fa-linkedin-in" style="color: #ff2483;"></i></a></span>
+          <span class = "box"><a class="lab" href="https://github.com/kakabisht"><i class="fab fa-github" style="color: #ff2483;"></i></a></span>
+          <span class = "box"><a class="lab" href="https://twitter.com/hridyesh_bisht"><i class="fab fa-twitter" style="color: #ff2483;"></i></a></span>
+          <span class = "box"><a class="lab" href="https://programmerprodigy.code.blog/"><i class="fab fa-wordpress" style="color: #ff2483;"></i></a></span>
+            
+        </div>
+      <div>
+          <img src=https://media.giphy.com/media/cODrlNTkGnZGVtVagd/giphy.gif alt="nyan cat" id="rick">
+      </div>
+      </footer>
     </body>
-</html>
+  </html>
+  
